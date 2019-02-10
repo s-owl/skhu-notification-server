@@ -1,4 +1,6 @@
-# TypeScript Node Starter
+# SKHU Notification Server
+
+#### Based TypeScript Node Starter
 
 [![Dependency Status](https://david-dm.org/Microsoft/TypeScript-Node-Starter.svg)](https://david-dm.org/Microsoft/TypeScript-Node-Starter) [![Build Status](https://travis-ci.org/Microsoft/TypeScript-Node-Starter.svg?branch=master)](https://travis-ci.org/Microsoft/TypeScript-Node-Starter) 
 
@@ -87,7 +89,7 @@ Don't forget to return the `MONGO_URI_LOCAL` to your local test database (if you
 Deploying from VS Code can be broken into the following steps:
 1. Authenticate your Azure account in VS Code
 2. Build your app
-3. Zip deploy using the Azure App Service extension
+3. Zip deploy using the Azure App Service extension 
 
 ### Sign in to your Azure account
 1. Open VS Code

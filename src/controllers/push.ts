@@ -10,9 +10,9 @@ import { Response, Request, NextFunction } from "express";
  * GET /api
  * List of API examples.
  */
-export let getApi = (req: Request, res: Response) => {
-  res.render("api/index", {
-    title: "API Examples"
+export let getPush = (req: Request, res: Response) => {
+  res.render("push/index", {
+    title: "Push Examples"
   });
 };
 

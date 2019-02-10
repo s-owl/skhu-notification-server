@@ -1,12 +1,12 @@
 {
-  "name": "express-typescript-starter",
+  "name": "skhu-notification-server",
   "version": "0.1.0",
-  "description": "A starting point for Node.js express apps with TypeScript",
+  "private": true,
+  "description": "this project is web server for send push messages and management notice board",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Microsoft/TypeScript-Node-Starter"
+    "url": "https://github.com/s-owl/skhu-notification-server"
   },
-  "author": "Bowden Kelly",
   "license": "MIT",
   "scripts": {
     "start": "npm run serve",

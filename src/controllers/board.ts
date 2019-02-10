@@ -14,8 +14,8 @@ const transporter = nodemailer.createTransport({
  * Contact form page.
  */
 export let getContact = (req: Request, res: Response) => {
-  res.render("contact", {
-    title: "Contact"
+  res.render("board", {
+    title: "Board"
   });
 };
 
@@ -32,7 +32,7 @@ export let postContact = (req: Request, res: Response) => {
 
   if (errors) {
     req.flash("errors", errors);
-    return res.redirect("/contact");
+    return res.redirect("/board");
   }
 
   const mailOptions = {
@@ -45,9 +45,9 @@ export let postContact = (req: Request, res: Response) => {
   transporter.sendMail(mailOptions, (err) => {
     if (err) {
       req.flash("errors", { msg: err.message });
-      return res.redirect("/contact");
+      return res.redirect("/board");
     }
     req.flash("success", { msg: "Email has been sent successfully!" });
-    res.redirect("/contact");
+    res.redirect("/board");
   });
 };
